@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(14 25 35);
+
+    /* BackGround Color Bege:    #ece8e1;
+       BackGround Color Dark>    rgb(14 25 35);
+       BackGround Color Darkest: #081017  */
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+    background-position: -7.8% 3.8%;
+}
+
+li{
+    list-style: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+    background-position: 1% 3.8%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+li:hover{
+    color:#a8eb9c;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+    background-position: 1.3% 3.8%;
+}
+
+.skills{
+    display: grid;
+    grid-template-rows: max-content;
+    margin-top: 40px;
+    border-top: #ac2f33 4px solid;
+    border-radius: 5px;
+    color: #F3F3F3;
+    position: relative;
+}
+
+.main-page{
+    background-color:rgb(14 25 35);
+    min-height: 260px;
+    padding: 24px 26px;
+    position: relative;
+    border-radius: 3px 0 0 3px;
+}
+
+.page-content{
+    overflow-x: visible;
+    font-weight: 400;
+    line-height: 1.75;
+    overflow-wrap: break-word;
+}
+
+/* Titulo de Entrada da Pagina */
+
+.skills-title{
+    font-size: 30px;
+    font-weight: 500;   
+    overflow: auto;
+    border-bottom: solid 2px #ac2f33;
+    font-family: 'Mukta', sans-serif;
+}
+
+.passive-title{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 24px 0 12px;
+    overflow: initial;
+    font-family: 'Mukta', sans-serif;
+    line-height: 2;
+    margin-top: 5px;
+    overflow-wrap: break-word;
+}
+
+.passiva{
+    background:#081017;
+    display: grid;
+    grid-template: auto 1fr auto/auto 1fr;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+    clear: both;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+#nome-passiva{
+    margin: 20px 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#energia{
+    color: #FF4B50;
+    text-decoration: none;
+    background-color: #081017;
+}
+
+#borda{
+    background: #FF4B50;
+    padding: 5px;
+    grid-row: 1 / -1;
+    grid-column: 1;
+    margin-right: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#descricao-passiva{
+    margin: 10px;
+    background-color: #081017;
+    font-size: 20px;
+}
+
+#detalhes{
+    display: flex;
+    margin: 10px;
+    margin-bottom: 15px;
+    background-color: #081017;
+}
+
+.title-name{
+    font-weight: bold; 
+    font-size: 30px;
+    margin: 24px 0 12px;
+    overflow: initial;
+    font-family: 'Mukta', sans-serif;
+    line-height: 2;
+    margin-top: 5px;
+    overflow-wrap: break-word;
+}
+
+.skill{
+    background:#081017;
+    display: grid;
+    grid-template: auto 1fr auto/auto 1fr;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+    clear: both;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.name{
+    margin: 30px 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #081017;
+}
+
+.key{
+    background: #323d48;
+    display: inline-block;
+    color: #ccc;
+    border-radius: 0.25em;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 0.5em;
+    vertical-align: top;
+}
+
+#mobile-label{
+    display: none;
+}
+
+.image{
+    background-color: #ac2f33;
+    padding: 10px;
+    grid-row: 1 / -1;
+    grid-column: 1;
+    margin-right: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.lazyloaded{
+    opacity: 1;
+    background-color: #ac2f33;
+}
+
+.description{
+    margin: 5px 0;
+    background-color: #081017;
+    font-size: inherit;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+footer{
+    height: 300px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(14 25 35);
+    background-position: 55% 165%;
+    border-top: #ac2f33 5px solid;
+    border-radius: 5px;
+}
+
+#logo2{
+    width: 120px;
+    margin-top: 40px;
+    background-color:rgb(14 25 35);
+}
+
+span{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: normal;
+    background-color:rgb(14 25 35);
+    
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.font-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+
+

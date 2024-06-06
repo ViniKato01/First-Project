@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    background-image: url(https://i.pinimg.com/564x/d6/9b/b3/d69bb334c2dd338893866f659ec492ee.jpg);
+
+    /* BackGround Color Bege:    #ece8e1;
+       BackGround Color Dark>    rgb(14 25 35);
+       BackGround Color Darkest: #081017  */
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+    background-position: -7.7% 3.8%;
+}
+
+li{
+    list-style: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+    background-position: 1% 3.8%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+li:hover{
+    color:#a8eb9c;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+    background-position: 1.3% 3.8%;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    border-radius: 10px;
+    margin: 40px 5%;
+    background-image: url(https://i.pinimg.com/564x/d6/9b/b3/d69bb334c2dd338893866f659ec492ee.jpg);
+    background-position: -7.7% -90%;
+    
+}
+
+.title{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #ffffff;
+    transition: .5s;
+    cursor: pointer;
+    background-image: url(https://i.pinimg.com/564x/d6/9b/b3/d69bb334c2dd338893866f659ec492ee.jpg);
+    background-position: -100% -90%;
+    
+}
+
+.title:hover{
+    color: #03fbff;
+}
+
+.container-2{
+    background-image: url(./Photo-Bakcground2.png);
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 15px;
+    margin: 15px 5%; 
+    border-top: #01dadf 5px solid;
+}
+
+.b1{
+    background-color: #00082b00;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.photo-box{
+    width: 100%;
+    display: grid;
+    margin: 0px 0;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: flex-end;
+    row-gap: 20px;
+    column-gap: 25px;
+    background-image: url(./Photo-Bakcground2.png);
+    background-size: cover;
+}
+
+.photo{
+    width: 95%;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 10px;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.212) 0px 10px 20px, rgba(95, 194, 144, 0.404) 0px 6px 6px;
+    cursor: pointer;
+}
+
+.photo:hover{
+    transform: scale(1.05);
+}
+
+.photo1{
+    background-image: url(https://i.pinimg.com/564x/73/65/68/7365680febe43a3e3af2b6e3c85cfcec.jpg);
+    background-size: cover;
+    background-position: 10% 10%;
+}
+
+.photo2{
+    background-image: url(https://i.pinimg.com/564x/b5/8a/a1/b58aa1ab3c19b0aad5b3a318daced856.jpg);
+    background-size: cover;
+    background-position: 10% 10%;
+}
+
+.photo3{
+    background-image: url(https://i.pinimg.com/564x/96/d3/5c/96d35cb991a034d1adff10eee4ff4dab.jpg);
+    background-size: cover;
+    background-position: 10% 10%;
+}
+
+.photo4{
+    background-image: url(https://i.pinimg.com/564x/72/00/a5/7200a5e388744d04c2bcfae1b16e91a1.jpg);
+    background-size: cover;
+    background-position: 10% 10%;
+}
+
+.photo5{
+    background-image: url(https://i.pinimg.com/564x/1f/f7/fe/1ff7fef5a60e5bfe176592f756d19451.jpg);
+    background-size: cover;
+    background-position: 10% 10%;
+}
+
+.photo6{
+    background-image: url(https://i.pinimg.com/564x/4c/83/bc/4c83bcbc2098ab841f6fc04528a2a02e.jpg);
+    background-size: cover;
+    background-position: 10% 10%;
+}
+
+footer{
+    height: 300px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-top: #01dadf 5px solid;
+    border-radius: 5px;
+    background-color: #000116;
+}
+
+#logo2{
+    width: 120px;
+    margin-top: 40px;
+    background-color:#000116
+}
+
+span{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: normal;
+    background-color:#000116;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.font-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

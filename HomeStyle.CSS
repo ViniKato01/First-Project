@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: #010930;
+
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+    background-position: -7.7% 3.8%;
+}
+
+li{
+    list-style: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+    background-position: 1.3% 3.8%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+li:hover{
+    color:#a8eb9c;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+    background-image: url(https://i.pinimg.com/564x/54/01/d5/5401d502d471d3763b4d3ab1b4783d76.jpg);
+    background-position: 1.3% 3.8%;
+}
+
+#banner{
+    background-image: url('https://s3-eu-central-1.amazonaws.com/www-staging.esports.com/wp-media-folder-esports-com/app/uploads/2022/01/Neon.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/564x/c5/e5/0c/c5e50c34b7b4185b20f249372056effc.jpg);
+}
+
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(https://i.pinimg.com/564x/56/05/ac/5605ac42ec58845a95f37981a06a9c28.jpg); 
+    background-size: contain;
+    margin-top: 20px;
+}
+
+.trailer{
+    width: 50%;
+}
+
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    background-image: url(https://i.pinimg.com/564x/56/05/ac/5605ac42ec58845a95f37981a06a9c28.jpg); 
+    background-position: 10% ;
+    background-size: auto;
+}
+
+.description{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: url(https://i.pinimg.com/564x/56/05/ac/5605ac42ec58845a95f37981a06a9c28.jpg); 
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-position: -16% 50%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&display=swap');
+
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: #053983;
+    color: #ebe37b;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: .8s;
+    align-items: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    display: none;
+}   
+
+.button:hover{
+    background-color: #a8eb9c;
+    color: #053983;
+    display: none;
+}
+
+.box{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/564x/c5/e5/0c/c5e50c34b7b4185b20f249372056effc.jpg);    
+    background-position: 50% 50%;
+}
+
+.titulo{
+    color:  white;
+    font-weight: bold;
+    font-size: 50px;
+    background-image: url(https://i.pinimg.com/564x/c5/e5/0c/c5e50c34b7b4185b20f249372056effc.jpg);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-position: 50% 50%;
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.titulo:hover{
+    color: #b4ef95
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.mains-card-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    background-color: #0d0d0d;
+}
+
+.card{
+    width: 97%;
+    height: 600px;
+    background-size:cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+    font-family:'Bebas Neue', sans-serif;
+    margin-top: 15px;
+
+}
+
+.banner-1{
+    background-image: url(https://i.pinimg.com/564x/e8/55/cf/e855cfb04f6b12a0f59ca70be672de4f.jpg)
+}
+.banner-2{
+    background-image: url(https://i.pinimg.com/564x/b1/9d/3e/b19d3e36b2956b7f692aa538d2216a4f.jpg)
+}
+.banner-3{
+    background-image: url(./3-MainNeon-Grumpy.png)
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    height: 300px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(./BackGroundColor2.png);
+    background-position: 55% 165%;
+}
+
+#logo2{
+    width: 120px;
+    margin-top: 40px;
+    background-image: url(https://i.pinimg.com/564x/28/ec/bb/28ecbb208cdc1dd8914d7c22b2e00750.jpg);
+}
+
+span{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: normal;
+    background-image: url(https://i.pinimg.com/564x/28/ec/bb/28ecbb208cdc1dd8914d7c22b2e00750.jpg);
+    
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.font-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* Tablets */
+
+@media(max-width: 768px){
+    .footer-navigation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        background-position: 40%;
+    }
+
+    #trailer-container{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-size: auto;
+        margin-top: 0px;
+    }
+
+    .trailer{
+        width: 100%;
+    }
+
+    #sinopse{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .description{
+        width: 100%;
+    }
+
+    .box{
+        display: flex;
+    }
+
+    .titulo{
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .card-content{
+        grid-template-columns: 1fr;
+
+    }
+
+    ul{
+        background-image: url(./BackGroundColor2.png);
+        background-size: cover;
+        background-position: 100px;
+    }
+
+    li{
+        background-image: url(./BackGroundColor2.png);  
+    }
+}
+
+
+/* Mobile */
+
+@media(max-width: 480px){
+    .footer-navigation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        background-position: 60%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        height: 270px;
+    }
+
+    #trailer-container{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 180px;
+    }
+
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-size: auto;
+        align-items: center;
+    }
+
+    .trailer{
+        width: 100%;
+    }
+
+    #sinopse{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    .box{
+        display: flex;
+    }
+
+    .titulo{
+        width: 100%;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-content{
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-navigation{
+        display: flex;
+    }
+
+    .footer-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
