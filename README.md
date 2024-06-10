@@ -1,4 +1,4 @@
-This repository shows my first web project, it may be a little messed up because I didn´t know I could organize the stuffs in that time hahah but I had tried my best :D 
+This repository shows my first web project, it may be a little messed up because I didn´t know I could organize the stuffs in that time hahah but I've tried my best :D 
 
 Project Neon: First Web Project!
 
